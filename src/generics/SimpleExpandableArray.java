@@ -10,7 +10,7 @@ public class SimpleExpandableArray<T> implements ExpandableArray<T> {
 
   @SuppressWarnings({"unchecked"})
   public SimpleExpandableArray() {
-    this.values = (T[]) new Object[16];
+    this.values = (T[]) new Object[4];
   } // SimpleExpandableArray
 
   public void set(int i, T val) {
